@@ -1,12 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "1vJXCxjj73tvfpZMHpUBJm7NW1/rxxgU8QVskaxC7IWBothTOoZ9dDFlSlIdYpyaOuoInKmOjLKx1+LRBP2bPg==",
-  "success": true,
-  "projectFilePath": "C:\\demo\\DotNetCoreDemo\\Services\\Features\\DNCD.Services.Features.Customer\\DNCD.Services.Features.Customer.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\munagav\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\munagav\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\munagav\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "oKWK+NG8EIY0fG36h+6oFtsDpASqF69+4EW99KrBUUxeC1HPxMmHywRj9BheliPXPRpQeTCtLQVQraHcYXSThQ==",
+  "success": false,
+  "projectFilePath": "C:\\Code\\Docker.DotNetCoreDemo\\Services\\Features\\DNCD.Services.Features.Customer\\DNCD.Services.Features.Customer.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 12.0.3)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package NETStandard.Library with version (>= 2.0.3)\r\n  - Found 3 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.0.0 ]",
+      "libraryId": "NETStandard.Library",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }
